@@ -29,9 +29,10 @@
       color: lightgrey
     }
 
-    h3, h2, h1, p {
+    h3, h2, h1, p, footer {
       text-align: center;
       font-size: 24px; 
+      color: black;
     }
 
     button {
@@ -61,7 +62,7 @@
       padding: 10px;
       font-size: 20px;
       border-radius: 10px;
-      background-color: #4CAF5075;
+      background-color: #D2B48C75;
       color: white;
       border: none;
       cursor: pointer;
@@ -88,9 +89,12 @@
     <br><br>
     <h1>soesbee arcade</h1> <!-- Put Your Name Here -->
     <h3>V1.1</h3>
-    <p>DONT PLAY IN CLASS</p>
+    <p>W soesbee</p>
     <br><br><br>
     <div class="game-buttons">
+
+      <button onlick="openGame('https://docs.google.com/forms/d/e/1FAIpQLSc8RFdC41cV6Hx9ivEyQkZNTjXt415-pJ2D3_YlES3tqFVxAA/viewform?usp=publish-editor')">
+        <img src="Icons/requestagame.png" class="rounded-image">Game requests</button>
       
       <button onclick="openGame('Games/2048.html')">
         <img src="Icons/2048.png" class="rounded-image">2048</button>
